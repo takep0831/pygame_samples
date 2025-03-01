@@ -14,5 +14,5 @@
 
 ウィンドウの背景の色
 >~~~
->
+> screen.fill((255, 255, 0))  # back ground color
 >~~~
