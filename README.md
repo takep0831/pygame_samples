@@ -3,33 +3,59 @@
 
 ### ステップ２
  ウィンドウの大きさ
+ 前
+>~~~
+>screen = pygamne.display.set_mode([640,480])
+後
 >~~~
 >screen = pygame.display.set_mode([700, 500])
 >~~~
 
 ウィンドウの名前
+前
+>~~~
+>pygame.display.set_caption("pygame demo - window title here")
+>~~~
+後
 >~~~
 >pygame.display.set_caption("pygame demo - Let's play!")
 >~~~
 
 ウィンドウの背景の色
+前
 >~~~
-> screen.fill((255, 255, 0))  # back ground color
+>screen.fill((238, 238, 170))
+>~~~
+後
+>~~~
+>screen.fill((255, 255, 0))  # back ground color
 >~~~
 
 図形の色、座標、大きさ
-大きい円
+大きい円 前
+>~~~
+>pygame.draw.circle(screen, (176, 176, 222), (500, 240), 120)
+>~~~
+大きい円　後
 >~~~
 >pygame.draw.circle(screen, (100, 100, 200), (500, 300), 150)
 >~~~
-小さい円
+小さい円　前
 >~~~
 >pygame.draw.circle(screen, (222, 176, 222), (120, 120), 20)
 >pygame.draw.circle(screen, (222, 176, 222), (120, 120), 20)
 >~~~
-四角
+小さい円　後
+>~~~
+>
+>~~~
+四角　前
 >~~~
 >pygame.draw.rect(screen, (120, 120, 120), Rect(120, 120, 200, 120))
+>~~~
+四角　後
+>~~~
+>
 >~~~
 
 動く点（四角）のon offの色
