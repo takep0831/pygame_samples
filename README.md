@@ -42,4 +42,3 @@
 >~~~
 
 Before
-<video controls src="レコーディング 2025-03-01 212609.mp4" title="Title"></video>
