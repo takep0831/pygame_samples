@@ -4,7 +4,7 @@ from pygame.locals import Rect
 pygame.init()
 
 clock = pygame.time.Clock()
-screen = pygame.display.set_mode([320, 240])
+screen = pygame.display.set_mode([700, 500])
 pygame.display.set_caption("pygame demo - window title here")
 
 running = True
