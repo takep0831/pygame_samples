@@ -6,6 +6,7 @@
  前
 >~~~
 >screen = pygamne.display.set_mode([640,480])
+>~~~
 後
 >~~~
 >screen = pygame.display.set_mode([700, 500])
@@ -95,4 +96,3 @@ x座標を増やす（点を動かす）
 >~~~
 >if x1 > 7:
 >~~~
-![video controls] <src="20250301-2251-36.7658568-2.mp4" title="Title"></video>
