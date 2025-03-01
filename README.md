@@ -24,3 +24,19 @@
 >pygame.draw.circle(screen, (222, 176, 222), (120, 120), 20)
 >pygame.draw.rect(screen, (120, 120, 120), Rect(120, 120, 200, 120))
 >~~~
+
+動く点（四角）のon offの色
+>~~~
+>color_on = (248, 180, 0)
+>color_off = (105, 105, 105)
+>~~~
+
+動く点（四角）の縦、横の数
+横
+>~~~
+> for x0 in range(7):
+>~~~
+縦
+>~~~
+>for y0 in range(9):
+>~~~
