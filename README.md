@@ -40,15 +40,15 @@
 >~~~
 >pygame.draw.circle(screen, (100, 100, 200), (500, 300), 150)
 >~~~
-小さい円　前
+小さい円（二つ）　前
 >~~~
 >pygame.draw.circle(screen, (222, 176, 222), (120, 120), 20)
 >pygame.draw.circle(screen, (222, 176, 222), (120, 120), 20)
 >~~~
 小さい円　後
 >~~~
->pygame.draw.circle(screen, (222, 176, 222), (120, 120), 20)
->pygame.draw.circle(screen, (222, 176, 222), (120, 120), 20)
+>pygame.draw.circle(screen, (255, 0, 0), (300, 100), 30)
+>pygame.draw.circle(screen, (255, 0, 255), (300, 150), 30)
 >~~~
 四角　前
 >~~~
