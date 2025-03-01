@@ -38,7 +38,7 @@ while running:
         x1 = 0
         y1 += 1
 
-    if y1 > 6:
+    if y1 > 8:
         y1 = 0
 
     pygame.display.flip()  # update
