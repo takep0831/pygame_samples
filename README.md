@@ -95,4 +95,7 @@ x座標を増やす（点を動かす）
 >~~~
 >if x1 > 7:
 >~~~
-<video controls src="20250301-2251-36.7658568.mp4" title="Title"></video>
+
+>~~~
+><video controls src="20250301-2251-36.7658568.mp4" title="Title"></video>
+>~~~
