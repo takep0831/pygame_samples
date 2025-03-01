@@ -1,5 +1,5 @@
 # pygame_samples
-##demo_01.py
+## demo_01.py
 
-###ステップ２
+### ステップ２
  
