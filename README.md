@@ -28,7 +28,7 @@
 >~~~
 後
 >~~~
->screen.fill((255, 255, 0))  # back ground color
+>screen.fill((255, 255, 0))
 >~~~
 
 図形の色、座標、大きさ

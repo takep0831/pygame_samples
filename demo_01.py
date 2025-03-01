@@ -22,7 +22,7 @@ while running:
     pygame.draw.circle(screen, (100, 100, 200), (500, 300), 150)
     pygame.draw.circle(screen, (222, 176, 222), (120, 120), 20)
     pygame.draw.circle(screen, (222, 176, 222), (120, 120), 20)
-    pygame.draw.rect(screen, (120, 120, 120), Rect(120, 120, 200, 120))
+    pygame.draw.rect(screen, (0, 128, 0), Rect(120, 120, 200, 120))
 
     color_on = (248, 180, 120)
     color_off = (105, 105, 105)
