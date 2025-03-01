@@ -20,7 +20,7 @@ while running:
     screen.fill((255, 255, 0))  # back ground color
 
     pygame.draw.circle(screen, (100, 100, 200), (500, 300), 150)
-    pygame.draw.circle(screen, (200, 170, 200), (500, 120), 20)
+    pygame.draw.circle(screen, (255, 0, 255), (500, 120), 20)
     pygame.draw.circle(screen, (222, 176, 222), (120, 120), 20)
     pygame.draw.rect(screen, (0, 128, 0), Rect(100, 100, 100, 200))
 
