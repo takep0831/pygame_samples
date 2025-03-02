@@ -19,7 +19,7 @@
 >~~~
 後
 >~~~
->pygame.display.set_caption("pygame demo - Let's play!")
+>pygame.display.set_caption("pygame demo - Hello!")
 >~~~
 
 ウィンドウの背景の色
