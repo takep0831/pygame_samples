@@ -86,6 +86,9 @@ After
 ![alt text](image.png)
 
 ### ステップ３
+
+![alt text](image-5.png)
+
 x座標を増やす（点を動かす）
 >~~~
 >x1 += 1
