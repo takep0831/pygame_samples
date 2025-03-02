@@ -5,7 +5,7 @@ pygame.init()
 
 clock = pygame.time.Clock()
 screen = pygame.display.set_mode([700, 500])
-pygame.display.set_caption("pygame demo - Let's play!")
+pygame.display.set_caption("pygame demo - Hello!")
 
 running = True
 x1, y1 = 0, 2
