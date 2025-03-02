@@ -80,7 +80,7 @@ Before
 ![alt text](image-1.png)
 
 After
-![alt text](image-3.png)
+![alt text](image.png)
 
 ### ステップ３
 x座標を増やす（点を動かす）
