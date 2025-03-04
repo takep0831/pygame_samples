@@ -78,7 +78,7 @@ def infinite_loop():
         if y > WINDOW_HEIGHT:
             y = WINDOW_HEIGHT
         if x < -10:
-            x += -1
+            x += 2
         if y < 0:
             y = 0
 
