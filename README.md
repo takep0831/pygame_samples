@@ -118,9 +118,8 @@ Before
 After
 ![alt text](画面録画-2025-03-02-082522.gif)
 
-### demo_02.py
+### demo_LCD_font.py
 #### ステップ４
 
 ![alt text](image-6.png)
 
-あ
