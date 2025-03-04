@@ -30,7 +30,7 @@ lcd1.init_row(X_ORG=8, Y_ORG=8, COL_INTV=6)
 
 
 def LCD_display(x, y):
-    code = int((x / 8) % 9)
+    code = int((x / 8) % 3)
     text1, rect1 = font1.render(str(code), WHITE)
     rect1.center = (x, y)
     screen.blit(text1, rect1)
@@ -67,7 +67,7 @@ def infinite_loop():
                     or event.key == pygame.K_UP
                     or event.key == pygame.K_DOWN
                 ):
-                    x_change = 0
+                    x_change = 5
                     y_change = 0
 
         x += x_change
