@@ -67,7 +67,7 @@ def infinite_loop():
                     or event.key == pygame.K_UP
                     or event.key == pygame.K_DOWN
                 ):
-                    x_change = 0
+                    x_change = 1
                     y_change = 0
 
         x += x_change

@@ -134,3 +134,12 @@ After
 >WINDOW_WIDTH = 700
 >WINDOW_HEIGHT = 240
 >~~~
+
+小さい数字の座標移動
+前
+>~~~
+>x_change = 0
+>~~~
+後>~~~
+>x_change = 1
+>~~~
