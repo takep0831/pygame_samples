@@ -26,7 +26,7 @@ font1 = pygame.freetype.Font("fonts/natumemozi.ttf", 48)
 
 lcd1 = LCD_font(screen)
 lcd1.init_col(BLOCK_SIZE=7, BLOCK_INTV=8, COLOR_ON=GREEN, COLOR_OFF=GRAY)
-lcd1.init_row(X_ORG=8, Y_ORG=8, COL_INTV=6)
+lcd1.init_row(X_ORG=5, Y_ORG=8, COL_INTV=6)
 
 
 def LCD_display(x, y):
