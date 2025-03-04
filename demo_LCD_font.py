@@ -67,7 +67,7 @@ def infinite_loop():
                     or event.key == pygame.K_UP
                     or event.key == pygame.K_DOWN
                 ):
-                    x_change = 0
+                    x_change = -1
                     y_change = 0
 
         x += x_change
@@ -78,7 +78,7 @@ def infinite_loop():
         if y > WINDOW_HEIGHT:
             y = WINDOW_HEIGHT
         if x < -10:
-            x = 1
+            x += 1
         if y < 0:
             y = 0
 
