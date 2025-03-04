@@ -14,7 +14,7 @@ YELLOW = (250, 250, 20)
 WHITE = (250, 250, 250)
 
 WINDOW_WIDTH = 320
-WINDOW_HEIGHT = 240
+WINDOW_HEIGHT = 700
 
 pygame.init()
 screen = pygame.display.set_mode((WINDOW_WIDTH, WINDOW_HEIGHT))

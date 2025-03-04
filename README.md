@@ -123,3 +123,14 @@ After
 
 ![alt text](image-6.png)
 
+ウィンドウの大きさ
+前
+>~~~
+>WINDOW_WIDTH = 320
+>WINDOW_HEIGHT = 240
+>~~~
+後
+>~~~
+>WINDOW_WIDTH = 320
+>WINDOW_HEIGHT = 700
+>~~~
