@@ -131,6 +131,6 @@ After
 >~~~
 後
 >~~~
->WINDOW_WIDTH = 320
->WINDOW_HEIGHT = 700
+>WINDOW_WIDTH = 700
+>WINDOW_HEIGHT = 240
 >~~~
