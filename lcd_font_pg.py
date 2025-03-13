@@ -38,7 +38,7 @@ LCD_3 = (1, 1, 1, 1, 1,
          1, 0, 0, 0, 1,
          0, 1, 1, 1, 0)
 
-LCD_font_styles = (LCD_0, LCD_1, LCD_2)
+LCD_font_styles = (LCD_0, LCD_1, LCD_2,LCD_3)
 
 DARK_GRAY = (40, 40, 40)
 GRAY = (80, 80, 80)
