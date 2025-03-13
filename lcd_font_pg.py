@@ -9,7 +9,6 @@ with open("fonts/font.txt", encoding="utf-8") as f:
         LCD_font_styles = f.read().split('\n')
 
 
-
 LCD_0 = (0, 1, 1, 1, 0,
          1, 0, 0, 0, 1,
          1, 0, 0, 1, 1,
