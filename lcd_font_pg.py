@@ -86,7 +86,7 @@ LCD_9 = (0, 1, 1, 1, 0,
          0, 0, 0, 1, 0,
          0, 1, 1, 0, 0)
 
-with open("fonts/font.txt", encoding="utf-8") as f:
+with open("fonts/font.txt", encoding = "utf-8") as f:
     LCD_font_styles = f.read().split('\n')
 
 DARK_GRAY = (40, 40, 40)
