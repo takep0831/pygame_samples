@@ -156,3 +156,4 @@ After
 >if x > 690:
 >            x = 0
 >~~~
+if LCD_font_styles[int(code)][i] == 1:
