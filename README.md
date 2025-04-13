@@ -156,4 +156,8 @@ After
 >if x > 690:
 >            x = 0
 >~~~
-if LCD_font_styles[int(code)][i] == 1:
+
+if LCD_font_styles[int(code)][i] == 1:   [code * 7 + y][x] == 1:
+
+with open("fonts/font.txt", encoding = "utf-8") as f:
+    LCD_font_styles = f.read().split('\n')

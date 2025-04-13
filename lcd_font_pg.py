@@ -123,7 +123,7 @@ class LCD_font():
         i = 0
         for y in range(7):
             for x in range(5):
-                if LCD_font_styles[code * 7 + y][x] == 1:
+                if LCD_font_styles[int(code)][i] == 1:
                     color = self.COLOR_ON
                 else:
                     color = self.COLOR_OFF
