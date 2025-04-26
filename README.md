@@ -305,6 +305,8 @@ code1は内部で1ずつ進んでいるので、1秒ごとに数字が変化し�
 0~100までの数字が表示されるようになった。
 ※注意　(10*code1)+code0の部分は((10*code1)+code0)のように()をつけること
 
+WHITEの部分は単純に色を変えられる
+種類はdemo_LCD_font.pyの8~14行の中から選べる
     rect1.center = (x, y)
     screen.blit(text1, rect1)
     lcd1.update_col(col=0, code=code1)
