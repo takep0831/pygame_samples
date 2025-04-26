@@ -327,7 +327,9 @@ code=code0は大きい数字の表示を変えられる。
 →基本的なルールは小さい数字と同じ
 なので下にlcd1.update_col(col=0, code=code0)を付け足してみると
 <video controls src="画面録画 2025-04-26 205316.mp4" title="n"></video>　の内容
-となる
+となる。
+
 そして、小さい方も10の位を増やす((10*code1)+code0)と
 <video controls src="20250426-1156-33.7963243.mp4" title="Title"></video>　の内容
+
 大きい数字と小さい数字が同じ数表示されるようになった。
