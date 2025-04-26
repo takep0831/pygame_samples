@@ -250,27 +250,34 @@ After
 >~~~
 >LCD_font_styles = (LCD_0, LCD_1, LCD_2, LCD_3, >LCD_4, LCD_5, LCD_6, LCD_7,LCD_8, LCD_9)
 >~~~
-    def LCD_display(x, y):
-    code = int((x / 8) % 3)
-    text1, rect1 = font1.render(str(code), WHITE)
-    rect1.center = (x, y)
-    screen.blit(text1, rect1)
-    # LCD sim
-    lcd1.update_col(col=0, code=code)
 
-    def LCD_display(x, y):
-    code0 = int((x / 8) % 10)
+設定
+前
+>~~~
+>    def LCD_display(x, y):
+>    code = int((x / 8) % 3)
+>    text1, rect1 = font1.render(str(code), WHITE)
+>    rect1.center = (x, y)
+>    screen.blit(text1, rect1)
+>    # LCD sim
+>    lcd1.update_col(col=0, code=code)
+>~~~
+後
+>~~~
+>    def LCD_display(x, y):
+>    code0 = int((x / 8) % 10)
+>    code1 = int((((x / 8)-code0) % 100) // 10)
+>    text1, rect1 = font1.render(str(1*code0), WHITE)
+>    rect1.center = (x, y)
+>    screen.blit(text1, rect1)
+>    lcd1.update_col(col=1, code=code0)
+>~~~
+変える部分の解説（分かる範囲で）
+
     code1 = int((((x / 8)-code0) % 100) // 10)
+
     text1, rect1 = font1.render(str((10*code1)+code0), WHITE)
     rect1.center = (x, y)
     screen.blit(text1, rect1)
     lcd1.update_col(col=0, code=code1)
-    lcd1.update_col(col=1, code=code0)
-
-    def LCD_display(x, y):
-    code0 = int((x / 8) % 10)
-    code1 = int((((x / 8)-code0) % 100) // 10)
-    text1, rect1 = font1.render(str(1*code0), WHITE)
-    rect1.center = (x, y)
-    screen.blit(text1, rect1)
     lcd1.update_col(col=1, code=code0)
