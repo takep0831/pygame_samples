@@ -159,5 +159,7 @@ After
 
 if LCD_font_styles[int(code)][i] == 1:   [code * 7 + y][x] == 1:
 
+LCD_font_styles = (LCD_0, LCD_1, LCD_2)
+
 with open("fonts/font.txt", encoding = "utf-8") as f:
     LCD_font_styles = f.read().split('\n')
