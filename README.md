@@ -272,11 +272,16 @@ After
 >    screen.blit(text1, rect1)
 >    lcd1.update_col(col=1, code=code0)
 >~~~
-変える部分の解説（分かる範囲で）
+変える部分の解説（分かる範囲で、たぶん違う）
+    code0 = int((x / 8) % 10)
+    code0の定義
 
     code1 = int((((x / 8)-code0) % 100) // 10)
+    code1の定義
 
-    text1, rect1 = font1.render(str((10*code1)+code0), WHITE)
+    text1, rect1 = font1.render(str((1*code)+code0), WHITE)
+（大事）1*code1の所は１の位を変化させる
+(10*code1)+code0にすると、
     rect1.center = (x, y)
     screen.blit(text1, rect1)
     lcd1.update_col(col=0, code=code1)
