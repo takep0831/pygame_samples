@@ -290,7 +290,8 @@ After
 
 code0は小さい数字の変化
 ![alt text](レコーディング-2025-04-26-162805.gif)
-さっきのと合わせたら分かりやすい
+さっきのと合わせたら10の位が変化
+→
 
     rect1.center = (x, y)
     screen.blit(text1, rect1)
