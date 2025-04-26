@@ -276,7 +276,7 @@ After
 
 変える部分の解説（分かる範囲で、たぶん違う）
 変化がわかりやすいように完成版
-<video controls src="20250426-0701-10.4647329.mp4" title="Title"></video>
+![alt text](画面録画-2025-03-01-210351.gif)
     code0 = int((x / 8) % 10)
     code0の定義
 
