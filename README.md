@@ -286,7 +286,7 @@ After
 
     text1, rect1 = font1.render(str((1*code0)+code0), WHITE)
 （大事）1*は位を変化させる。10*にすると10の位が変化する
-
+![alt text](レコーディング-2025-04-26-162300.gif)
 
 code0は
 (10*code1)+code0にすると、
