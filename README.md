@@ -307,8 +307,7 @@ code1は内部で1ずつ進んでいるので、1秒ごとに数字が変化し�
 
 WHITEの部分は単純に色を変えられる
 種類はdemo_LCD_font.pyの8~14行の中から選べる
-    rect1.center = (x, y)
-    screen.blit(text1, rect1)
+
     lcd1.update_col(col=0, code=code1)
     lcd1.update_col(col=1, code=code0)
     
