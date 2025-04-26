@@ -323,8 +323,10 @@ After (col=10)
 ![alt text](image-9.png)
 
 code=code0は大きい数字の表示を変えられる。
+<video controls src="20250426-1203-38.4948018.mp4" title="Title"></video>　の内容
 
 →基本的なルールは小さい数字と同じ
+
 なので下にlcd1.update_col(col=0, code=code0)を付け足してみると
 <video controls src="画面録画 2025-04-26 205316.mp4" title="n"></video>　の内容
 となる。
