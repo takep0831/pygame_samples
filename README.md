@@ -278,13 +278,13 @@ After
 変化がわかりやすいように完成版
 ![alt text](レコーディング-2025-04-26-161548.gif)
 
-code0 = int((x / 8) % 10)
+# code0 = int((x / 8) % 10)
 code0の定義
 
- code1 = int((((x / 8)-code0) % 100) // 10)
+# code1 = int((((x / 8)-code0) % 100) // 10)
 code1の定義
 
-text1, rect1 = font1.render(str(1*code0), WHITE)
+# text1, rect1 = font1.render(str(1*code0), WHITE)
 （大事）str(1*・・・)の「1」*は位を変化させる。10*にすると10の位が変化する
 ![alt text](レコーディング-2025-04-26-162300.gif)
 
@@ -308,7 +308,6 @@ code1は内部で1ずつ進んでいるので、1秒ごとに数字が変化し�
 WHITEの部分は単純に色を変えられる
 種類はdemo_LCD_font.pyの8~14行の中から選べる
 
-    lcd1.update_col(col=0, code=code1)
-    lcd1.update_col(col=1, code=code0)
-    
-    は準備中です
+# lcd1.update_col(col=0, code=code0)
+col=0は座標を変えられます
+code=code0は
