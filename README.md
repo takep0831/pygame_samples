@@ -288,7 +288,10 @@ After
 （大事）1*は位を変化させる。10*にすると10の位が変化する
 ![alt text](レコーディング-2025-04-26-162300.gif)
 
-code0は
+code0は小さい数字の変化
+![alt text](レコーディング-2025-04-26-162805.gif)
+さっきのと合わせたら分かりやすい
+
     rect1.center = (x, y)
     screen.blit(text1, rect1)
     lcd1.update_col(col=0, code=code1)
