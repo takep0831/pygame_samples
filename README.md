@@ -285,7 +285,7 @@ After
     code1の定義
 
     text1, rect1 = font1.render(str((1*code0)+code0), WHITE)
-（大事）1*は位を変化させる10*にすると10の位が変化する
+（大事）1*は位を変化させる。10*にすると10の位が変化する
 
 
 code0は
