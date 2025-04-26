@@ -239,8 +239,17 @@ After
 >         0, 0, 0, 1, 0,
 >         0, 1, 1, 0, 0)
 >~~~
-LCD_font_styles = (LCD_0, LCD_1, LCD_2)
+※0~2は元々あった
 
+表示
+前
+>~~~
+>LCD_font_styles = (LCD_0, LCD_1, LCD_2)
+>~~~
+後
+>~~~
+>LCD_font_styles = (LCD_0, LCD_1, LCD_2, LCD_3, >LCD_4, LCD_5, LCD_6, LCD_7,LCD_8, LCD_9)
+>~~~
     def LCD_display(x, y):
     code = int((x / 8) % 3)
     text1, rect1 = font1.render(str(code), WHITE)
