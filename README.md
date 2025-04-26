@@ -307,10 +307,18 @@ code1は内部で1ずつ進んでいるので、1秒ごとに数字が変化し�
 
 WHITEの部分は単純に色を変えられる。
 種類はdemo_LCD_font.pyの8~14行の中から選べる。
+Before
 ![alt text](image-7.png)
+After (RED)
+![alt text](image-8.png)
 
 # lcd1.update_col(col=0, code=code0)
 col=0は大きい数字の座標を変えられます。
+BEfore
+![alt text](image-7.png)
+After (col=10)
+
+
 code=code0は大きい数字の表示を変えられます。
 →基本的なルールは小さい数字と同じ
 なので下にlcd1.update_col(col=0, code=code0)を付け足してみると
