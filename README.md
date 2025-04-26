@@ -171,3 +171,12 @@ with open("fonts/font.txt", encoding = "utf-8") as f:
     screen.blit(text1, rect1)
     # LCD sim
     lcd1.update_col(col=0, code=code)
+
+    def LCD_display(x, y):
+    code0 = int((x / 8) % 10)
+    code1 = int((((x / 8)-code0) % 100) // 10)
+    text1, rect1 = font1.render(str((10*code1)+code0), WHITE)
+    rect1.center = (x, y)
+    screen.blit(text1, rect1)
+    lcd1.update_col(col=0, code=code1)
+    lcd1.update_col(col=1, code=code0)

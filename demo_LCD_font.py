@@ -35,7 +35,6 @@ def LCD_display(x, y):
     text1, rect1 = font1.render(str((10*code1)+code0), WHITE)
     rect1.center = (x, y)
     screen.blit(text1, rect1)
-    lcd1.update_col(col=0, code=code1)
     lcd1.update_col(col=1, code=code0)
 
 
