@@ -32,7 +32,7 @@ lcd1.init_row(X_ORG=5, Y_ORG=8, COL_INTV=6)
 def LCD_display(x, y):
     code0 = int((x / 8) % 10)
     code1 = int((((x / 8)-code0) % 100) // 10)
-    text1, rect1 = font1.render(str(10*code1)+code0, WHITE)
+    text1, rect1 = font1.render(str((10*code1)+code0), WHITE)
     rect1.center = (x, y)
     screen.blit(text1, rect1)
     lcd1.update_col(col=1, code=code0)
