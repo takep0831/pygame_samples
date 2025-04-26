@@ -317,7 +317,7 @@ col=0は大きい数字の座標を変えられます。
 BEfore
 ![alt text](image-7.png)
 After (col=10)
-
+![alt text](image-9.png)
 
 code=code0は大きい数字の表示を変えられます。
 →基本的なルールは小さい数字と同じ
