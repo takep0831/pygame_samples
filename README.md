@@ -302,3 +302,5 @@ code1は内部で1ずつ進んでいるので、1秒ごとに数字が変化し�
     screen.blit(text1, rect1)
     lcd1.update_col(col=0, code=code1)
     lcd1.update_col(col=1, code=code0)
+    
+    は準備中です
