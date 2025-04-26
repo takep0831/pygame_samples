@@ -279,8 +279,9 @@ After
     code1 = int((((x / 8)-code0) % 100) // 10)
     code1の定義
 
-    text1, rect1 = font1.render(str((1*code)+code0), WHITE)
-（大事）1*code1の所は１の位を変化させる
+    text1, rect1 = font1.render(str((1*code0)+code0), WHITE)
+（大事）1*は位を変化させる10*にすると10の位が変化する
+code0は
 (10*code1)+code0にすると、
     rect1.center = (x, y)
     screen.blit(text1, rect1)
