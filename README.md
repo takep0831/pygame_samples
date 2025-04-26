@@ -313,6 +313,9 @@ After (RED)
 ![alt text](image-8.png)
 
 # lcd1.update_col(col=0, code=code0)
+一様もう一度基準を貼っておく
+![alt text](レコーディング-2025-04-26-161548.gif)
+
 col=0は大きい数字の座標を変えられます。
 BEfore
 ![alt text](image-7.png)
@@ -320,5 +323,8 @@ After (col=10)
 ![alt text](image-9.png)
 
 code=code0は大きい数字の表示を変えられます。
+
 →基本的なルールは小さい数字と同じ
 なので下にlcd1.update_col(col=0, code=code0)を付け足してみると
+
+となる
