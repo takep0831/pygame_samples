@@ -272,7 +272,11 @@ After
 >    screen.blit(text1, rect1)
 >    lcd1.update_col(col=1, code=code0)
 >~~~
+
+
 変える部分の解説（分かる範囲で、たぶん違う）
+変化がわかりやすいように完成版
+<video controls src="20250426-0701-10.4647329.mp4" title="Title"></video>
     code0 = int((x / 8) % 10)
     code0の定義
 
