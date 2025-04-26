@@ -281,6 +281,8 @@ After
 
     text1, rect1 = font1.render(str((1*code0)+code0), WHITE)
 （大事）1*は位を変化させる10*にすると10の位が変化する
+
+
 code0は
 (10*code1)+code0にすると、
     rect1.center = (x, y)
