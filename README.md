@@ -328,7 +328,7 @@ After (col=10)
 ![alt text](image-9.png)
 
 code=code0は大きい数字の表示を変えられる。
-<video controls src="20250426-1203-38.4948018.mp4" title="Title"></video>　の内容
+![alt text](画面録画-2025-04-26-210351.gif)
 
 →基本的なルールは小さい数字と同じ
 
