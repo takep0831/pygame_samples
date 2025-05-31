@@ -58,7 +58,7 @@ while running:
                     + dt_now.month * 10 ** 5
                     + dt_now.day * 1)
 
-        display2.update_col(zfil=True, rjust=10, num=time_now, base=10)
+        display2.update_num2(zfil=True, rjust=10, num=time_now, base=10)
 
         dt_now = datetime.now()
         time_now = (dt_now.hour * 10000
