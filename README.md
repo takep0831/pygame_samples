@@ -387,3 +387,9 @@ code=code0は大きい数字の表示を変えられる。
 >~~~
 >X_ORG=10, Y_ORG=20, COL_INTV=6
 >~~~
+
+Before
+![alt text](image-11.png)
+
+After
+![alt text](image-10.png)
