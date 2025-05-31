@@ -45,7 +45,8 @@ while running:
         if not running:
             break
         # 「for count」のループから抜ける。whileループも抜ける。
-
+        
+        dt_now = datetime.now()
         time_now = (dt_now.hour * 10000
                     + dt_now.munite * 100
                     + dt_now.second * 1)
