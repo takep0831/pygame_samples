@@ -3,7 +3,7 @@
 import pygame
 import pygame.freetype
 # import time
-from lcd_font_pg.py import LCD_font
+from lcd_font_pg import LCD_font
 
 DARK_GRAY = (40, 40, 40)
 GRAY = (80, 80, 80)
