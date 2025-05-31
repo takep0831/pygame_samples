@@ -385,5 +385,5 @@ code=code0は大きい数字の表示を変えられる。
 >~~~
 後
 >~~~
->X_ORG=10, Y_ORG=20, COL_INTV=8
+>X_ORG=10, Y_ORG=20, COL_INTV=6
 >~~~

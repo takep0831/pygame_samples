@@ -23,7 +23,7 @@ screen.fill(DARK_GRAY)
 
 display1 = Seven_seg(screen)
 display1.init_col(BLOCK_SIZE=12, BLOCK_INTV=15, COLOR_ON=YELLOW, COLOR_OFF=GRAY) #　大きさと色
-display1.init_row(X_ORG=10, Y_ORG=20, COL_INTV=8)
+display1.init_row(X_ORG=8, Y_ORG=22, COL_INTV=10)
 
 display2 = Seven_seg(screen)
 display2.init_col(BLOCK_SIZE=7, BLOCK_INTV=8, COLOR_ON=RED, COLOR_OFF=GRAY)
