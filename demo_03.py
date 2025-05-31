@@ -54,7 +54,7 @@ while running:
             break
         # 「for count」のループから抜ける。whileループも抜ける。
 
-        display1.update_col(col=0, num=count // (8 ** 3))   # 4096の位
+        display1.update_col(col=0, num=count // (16 ** 3))   # 4096の位
         display1.update_col(col=1, num=count // (16 ** 2))   # 256の位
         display1.update_col(col=2, num=count // 16)          # 16の位
         display1.update_col(col=3, num=count)                # 1の位
