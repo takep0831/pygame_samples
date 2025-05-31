@@ -60,7 +60,7 @@ while running:
         dt_now = datetime.now()
         time_now = (dt_now.hour * 0
                     + dt_now.minute * 0
-                    + dt_now.second)
+                    + dt_now.second * 0)
         display3.disp_num2(zfil=True, rjust=6, num=time_now, base=10)
 
         pygame.display.flip()  # update_col
