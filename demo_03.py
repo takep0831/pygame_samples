@@ -58,10 +58,10 @@ while running:
         display2.update_col(col=4, num=count // (10 ** 0), base=10)   # 1の位
 
         dt_now = datetime.now()
-        time_now = (dt_now.hour * 1
+        time_now = (dt_now.hour * 0
                     + dt_now.minute * 1
                     + dt_now.second * 1)
-        display3.disp_num2(zfil=False, rjust=2, num=time_now, base=10)
+        display3.disp_num2(zfil=True, rjust=2, num=time_now, base=10)
 
         pygame.display.flip()  # update_col
         clock.tick(20)  # FPS, Frame Per Second
