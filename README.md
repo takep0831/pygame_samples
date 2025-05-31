@@ -347,51 +347,18 @@ code=code0は大きい数字の表示を変えられる。
 
 ![alt text](画面録画-2025-05-31-185227.gif)
 
-（display1の緑の数字の情報を使っています）
-文字の太さ
+文字の太さ、大きさ、色、座標(緑)
+（大きさは１進めるだけでかなり変わる
+ ON,OFFはフォントの部分が使われているか）
 前
 >~~~
->BLOCK_SIZE=9
+>display1.init_col(BLOCK_SIZE=9, BLOCK_INTV=10, COLOR_ON=GREEN, COLOR_OFF=DARK_GRAY)
+>display1.init_row(X_ORG=8, Y_ORG=22, COL_INTV=6)
 >~~~
 後
 >~~~
->BLOCK_SIZE=12
+>display1.init_col(BLOCK_SIZE=7, BLOCK_INTV=6, COLOR_ON=YELLOW, COLOR_OFF=GRAY)
+>display1.init_row(X_ORG=5, Y_ORG=50, COL_INTV=8)
 >~~~
-
-文字の大きさ(1進めるだけでかなり変わる)
+赤
 前
->~~~
->BLOCK_INTV=10
->~~~
-後
->~~~
->BLOCK_INTV=12
->~~~
-
-文字の色(ON,OFFはフォントの部分が使われているか)
-前
->~~~
->COLOR_ON=GREEN, COLOR_OFF=DARK_GRAY
->~~~
-後
->~~~
->COLOR_ON=YELLOW, COLOR_OFF=GRAY
->~~~
-
-座標
-前
->~~~
->X_ORG=8, Y_ORG=22, COL_INTV=6
->~~~
-後(X=横,Y=縦,INTV=一つ一つの数字の区間)
->~~~
->X_ORG=10, Y_ORG=20, COL_INTV=6
->~~~
-
-Before
-![alt text](image-11.png)
-
-After
-![alt text](image-10.png)
-
-
