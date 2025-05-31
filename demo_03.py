@@ -54,11 +54,11 @@ while running:
         display1.disp_num2(zfil=True, rjust=8, num=time_now, base=10)
 
         dt_now = datetime.now()
-        time_now = (dt_now.year * 10 ** 5
+        time_now = (dt_now.year * 10 ** 6
                     + dt_now.month * 10 ** 3
                     + dt_now.day * 1)
 
-        display2.disp_num2(zfil=True, rjust=10, num=time_now, base=10)
+        display2.disp_num2(zfil=True, rjust=9, num=time_now, base=10)
 
         dt_now = datetime.now()
         time_now = (dt_now.hour * 10000
