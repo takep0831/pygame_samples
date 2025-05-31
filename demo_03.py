@@ -29,17 +29,9 @@ display2 = Seven_seg(screen)
 display2.init_col(BLOCK_SIZE=7, BLOCK_INTV=8, COLOR_ON=RED, COLOR_OFF=GRAY)
 display2.init_row(X_ORG=2, Y_ORG=18, COL_INTV=6)
 
-display3 = Seven_seg(screen) # ほぼ使わない
-display3.init_col(BLOCK_SIZE=4, BLOCK_INTV=4)
-display3.init_row(X_ORG=20, Y_ORG=66, COL_INTV=6)
-
-display4 = Seven_seg(screen) # ほぼ使わない
-display4.init_col(BLOCK_SIZE=4, BLOCK_INTV=4)
-display4.init_row(X_ORG=2, Y_ORG=76, COL_INTV=6)
-
-display5 = Seven_seg(screen)
-display5.init_col(BLOCK_SIZE=9, BLOCK_INTV=9, COLOR_ON=(120, 200, 250), COLOR_OFF=GRAY)
-display5.init_row(X_ORG=8, Y_ORG=8, COL_INTV=6) #座標
+display3 = Seven_seg(screen)
+display3.init_col(BLOCK_SIZE=9, BLOCK_INTV=9, COLOR_ON=(120, 200, 250), COLOR_OFF=GRAY)
+display3.init_row(X_ORG=8, Y_ORG=8, COL_INTV=6) #座標
 
 
 running = True
@@ -65,15 +57,11 @@ while running:
         display2.update_col(col=3, num=count // (10 ** 1), base=10)   # 10の位
         display2.update_col(col=4, num=count // (10 ** 0), base=10)   # 1の位
 
-        display3.disp_num2(zfil=False, rjust=3, num=count, base=10)
-
-        display4.disp_num2(zfil=True, rjust=16, num=count, base=2)
-
         dt_now = datetime.now()
         time_now = (dt_now.hour * 10000
                     + dt_now.minute * 100
                     + dt_now.second)
-        display5.disp_num2(zfil=True, rjust=6, num=time_now, base=10)
+        display3.disp_num2(zfil=True, rjust=6, num=time_now, base=10)
 
         pygame.display.flip()  # update_col
         clock.tick(20)  # FPS, Frame Per Second
