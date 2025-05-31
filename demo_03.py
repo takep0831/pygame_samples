@@ -35,11 +35,11 @@ display3.init_row(X_ORG=20, Y_ORG=66, COL_INTV=6)
 
 display4 = Seven_seg(screen)
 display4.init_col(BLOCK_SIZE=4, BLOCK_INTV=4)
-display4.init_row(X_ORG=1, Y_ORG=50, COL_INTV=6)
+display4.init_row(X_ORG=10, Y_ORG=20, COL_INTV=6)
 
 display5 = Seven_seg(screen)
 display5.init_col(BLOCK_SIZE=9, BLOCK_INTV=9, COLOR_ON=(120, 200, 250), COLOR_OFF=GRAY)
-display5.init_row(X_ORG=8, Y_ORG=8, COL_INTV=6)
+display5.init_row(X_ORG=2, Y_ORG=76, COL_INTV=6)
 
 
 running = True
