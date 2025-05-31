@@ -31,7 +31,7 @@ display2.init_row(X_ORG=2, Y_ORG=18, COL_INTV=6)
 
 display3 = Seven_seg(screen)
 display3.init_col(BLOCK_SIZE=9, BLOCK_INTV=9, COLOR_ON=(120, 200, 250), COLOR_OFF=GRAY)
-display3.init_row(X_ORG=8, Y_ORG=8, COL_INTV=6) #座標
+display3.init_row(X_ORG=30, Y_ORG=8, COL_INTV=6) #座標
 
 
 running = True
@@ -61,7 +61,7 @@ while running:
         time_now = (dt_now.hour * 1
                     + dt_now.minute * 1
                     + dt_now.second * 1)
-        display3.disp_num2(zfil=True, rjust=2, num=time_now, base=10)
+        display3.disp_num2(zfil=False, rjust=2, num=time_now, base=10)
 
         pygame.display.flip()  # update_col
         clock.tick(20)  # FPS, Frame Per Second
