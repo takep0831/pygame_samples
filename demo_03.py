@@ -61,7 +61,7 @@ while running:
         time_now = (dt_now.hour * 1
                     + dt_now.minute * 1
                     + dt_now.second * 1)
-        display3.disp_num2(zfil=True, rjust=6, num=time_now, base=1)
+        display3.disp_num2(zfil=True, rjust=6, num=time_now, base=100)
 
         pygame.display.flip()  # update_col
         clock.tick(20)  # FPS, Frame Per Second
