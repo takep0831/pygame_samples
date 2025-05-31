@@ -27,7 +27,7 @@ display1.init_row(X_ORG=8, Y_ORG=22, COL_INTV=6)
 
 display2 = Seven_seg(screen)
 display2.init_col(BLOCK_SIZE=7, BLOCK_INTV=8, COLOR_ON=RED, COLOR_OFF=GRAY)
-display2.init_row(X_ORG=2, Y_ORG=18, COL_INTV=6)
+display2.init_row(X_ORG=2, Y_ORG=18, COL_INTV=10)
 
 display3 = Seven_seg(screen)
 display3.init_col(BLOCK_SIZE=4, BLOCK_INTV=4)
