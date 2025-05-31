@@ -58,7 +58,7 @@ while running:
         display2.update_col(col=4, num=count // (10 ** 0), base=10)   # 1の位
 
         dt_now = datetime.now()
-        time_now = (dt_now.hour * 60
+        time_now = (dt_now.hour * 0
                     + dt_now.minute * 60
                     + dt_now.second)
         display3.disp_num2(zfil=True, rjust=6, num=time_now, base=10)
