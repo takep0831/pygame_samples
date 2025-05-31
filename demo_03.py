@@ -48,7 +48,7 @@ while running:
         
         dt_now = datetime.now()
         time_now = (dt_now.hour * 10000
-                    + dt_now.munite * 100
+                    + dt_now.minute * 100
                     + dt_now.second * 1)
 
         display1.disp_num2(zfil=True, rjust=9, num=time_now, base=10)
