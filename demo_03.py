@@ -3,6 +3,7 @@
 
 from datetime import datetime
 import pygame
+from lcd_font_pg import LCD_a
 from seven_seg_pg import Seven_seg
 
 
@@ -56,9 +57,10 @@ while running:
         dt_now = datetime.now()
         time_now = (dt_now.year * 10 ** 6
                     + dt_now.month * 10 ** 3
-                    + dt_now.day * 1)
+                    + dt_now.day * 1
+                    + LCD_a * 100)
 
-        display2.disp_num2(zfil=True, rjust=9, num=time_now, base=10)
+        display2.disp_num2(zfil=True, rjust=10, num=time_now, base=10)
 
         dt_now = datetime.now()
         time_now = (dt_now.hour * 10000
