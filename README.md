@@ -332,7 +332,9 @@ code=code0は大きい数字の表示を変えられる。
 
 →基本的なルールは小さい数字と同じ
 
-なので下にlcd1.update_col(col=0, code=code0)を付け足してみると
+なので下に新しくlcd1.update_col(col=0, code=code0)を付け足してみる
+    lcd1.update_col(col=1, code=code0)
+    lcd1.update_col(col=0, code=code1)と
 ![alt text](画面録画-2025-04-26-205316.gif)
 となる。
 
