@@ -58,7 +58,7 @@ while running:
         time_now = (dt_now.year * 10 ** 6
                     + dt_now.month * 10 ** 3
                     + dt_now.day * 1
-                    + LCD_a * 100)
+                    [int(LCD_a)] == 1 * 100)
 
         display2.disp_num2(zfil=True, rjust=10, num=time_now, base=10)
 
