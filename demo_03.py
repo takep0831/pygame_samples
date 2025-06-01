@@ -3,8 +3,8 @@
 
 from datetime import datetime
 import pygame
-from lcd_font_pg import LCD_10
 from seven_seg_pg import Seven_seg
+from lcd_font_pg import LCD_font
 
 
 DARK_GRAY = (40, 40, 40)
