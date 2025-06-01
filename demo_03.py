@@ -57,8 +57,7 @@ while running:
         dt_now = datetime.now()
         time_now = (dt_now.year * 10 ** 6
                     + dt_now.month * 10 ** 3
-                    + dt_now.day * 1
-                    LCD_font_styles[LCD_a * 7 + y][x] * 100)
+                    + dt_now.day * 1)
 
         display2.disp_num2(zfil=True, rjust=10, num=time_now, base=10)
 
