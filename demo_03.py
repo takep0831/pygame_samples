@@ -51,8 +51,8 @@ while running:
         lcd1 = LCD_10
         time_now = (dt_now.hour * 10 ** 6
                     + dt_now.minute * 10 ** 3
-                    + dt_now.second * 1
-                    + lcd1.update_col(col=10, code=10) * 100)
+                    + dt_now.second * 1)
+        lcd1.update_col(col=10, code=10) * 100
 
         display1.disp_num2(zfil=True, rjust=8, num=time_now, base=10)
 
