@@ -150,5 +150,3 @@ class LCD_font():
                 # ドットを描く
                 pygame.draw.rect(self.screen, color, Rect(org1[0], org1[1], block_size, block_size))
                 i += 1
-
-                lcd1 = LCD_10
