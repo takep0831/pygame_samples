@@ -50,8 +50,7 @@ while running:
         dt_now = datetime.now()
         time_now = (dt_now.hour * 10 ** 6
                     + dt_now.minute * 10 ** 3
-                    + dt_now.second * 1
-                    + LCD_10 * 100)
+                    + dt_now.second * 1)
 
         display1.disp_num2(zfil=True, rjust=8, num=time_now, base=10)
 
