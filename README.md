@@ -363,3 +363,5 @@ code=code0は大きい数字の表示を変えられる。
 >~~~
 赤
 前
+LCD_font_styles = (LCD_0, LCD_1, LCD_2, LCD_3, LCD_4, LCD_5, LCD_6, LCD_7,LCD_8, LCD_9, LCD_10, LCD_11)
+[int(code)][i] == 1:
