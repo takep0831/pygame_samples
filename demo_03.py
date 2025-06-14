@@ -4,7 +4,7 @@
 from datetime import datetime
 import pygame
 from seven_seg_pg import Seven_seg
-from lcd_font_pg import LCD_10
+from lcd_font_pg import LCD_font
 
 
 DARK_GRAY = (40, 40, 40)
@@ -48,14 +48,16 @@ while running:
         # 「for count」のループから抜ける。whileループも抜ける。
         
         dt_now = datetime.now()
+        lcd1 = LCD_font(screen)
+        LCD_10 = LCD_10
         time_now = (dt_now.hour * 10 ** 6
                     + dt_now.minute * 10 ** 3
-                    + dt_now.second * 1)
+                    + dt_now.second * 1
+                    + lcd1.update_col(col=1, code=LCD_10) * 100)
 
         display1.disp_num2(zfil=True, rjust=8, num=time_now, base=10)
 
         dt_now = datetime.now()
-        LCD_10 = LCD_10
         time_now = (dt_now.year * 10 ** 6
                     + dt_now.month * 10 ** 3
                     + dt_now.day * 1)
