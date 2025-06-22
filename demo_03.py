@@ -59,8 +59,6 @@ while running:
         lcd1.update_col(col=6, code=dt_now.second // 10)  
         lcd1.update_col(col=7, code=dt_now.second % 10)  
 
-
-
         dt_now = datetime.now()
         time_now = (dt_now.year * 10 ** 6
                     + dt_now.month * 10 ** 3
