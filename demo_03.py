@@ -52,10 +52,10 @@ while running:
         lcd1 = LCD_font(screen)
         lcd1.update_col(col=0, code=dt_now.hour // 10)
         lcd1.update_col(col=1, code=dt_now.hour % 10 )
-        lcd1.update_col(col=2, code=code10)
+        lcd1.update_col(col=2, code=10)
         lcd1.update_col(col=3, code=dt_now.minute // 10)
-        lcd1.update_col(col=4, code=dt_now.minute % 10)                # 1の位
-        lcd1.update_col(col=5, code=code10)  
+        lcd1.update_col(col=4, code=dt_now.minute % 10)
+        lcd1.update_col(col=5, code=10)  
         lcd1.update_col(col=6, code=dt_now.second // 10)  
         lcd1.update_col(col=7, code=dt_now.second % 10)  
 
