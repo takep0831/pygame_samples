@@ -55,8 +55,6 @@ while running:
         display1.update_col(col=2, num=count // 16)          # 16の位
         display1.update_col(col=3, num=count)                # 1の位
 
-        display1.disp_num2(zfil=True, rjust=8, num=time_now, base=10)
-
         dt_now = datetime.now()
         time_now = (dt_now.year * 10 ** 6
                     + dt_now.month * 10 ** 3
