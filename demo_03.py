@@ -50,10 +50,16 @@ while running:
         
         dt_now = datetime.now()
         lcd1 = LCD_font(screen)
-        display1.update_col(col=0, num=count // (16 ** 3))   # 4096の位
-        display1.update_col(col=1, num=count // (16 ** 2))   # 256の位
-        display1.update_col(col=2, num=count // 16)          # 16の位
-        display1.update_col(col=3, num=count)                # 1の位
+        lcd1.update_col(col=0, code=dt_now.hour // 10)
+        lcd1.update_col(col=1, code=dt_now.hour % 10 )
+        lcd1.update_col(col=2, code=code10)
+        lcd1.update_col(col=3, code=dt_now.minute // 10)
+        lcd1.update_col(col=4, code=dt_now.minute % 10)                # 1の位
+        lcd1.update_col(col=5, code=code10)  
+        lcd1.update_col(col=6, code=dt_now.second // 10)  
+        lcd1.update_col(col=7, code=dt_now.second % 10)  
+
+
 
         dt_now = datetime.now()
         time_now = (dt_now.year * 10 ** 6
