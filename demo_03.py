@@ -51,7 +51,7 @@ while running:
         dt_now = datetime.now()
         lcd1 = LCD_font(screen)
         lcd1.update_col(col=0, code=dt_now.hour // 10)
-        lcd1.update_col(col=1, code=dt_now.hour % 10 )
+        lcd1.update_col(col=1, code=dt_now.hour % 10)
         lcd1.update_col(col=2, code=10)
         lcd1.update_col(col=3, code=dt_now.minute // 10)
         lcd1.update_col(col=4, code=dt_now.minute % 10)
